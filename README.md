@@ -58,7 +58,11 @@ Run the application as a Python module from the project directory:
 ```bash
 python -m pricing.main
 ```
+and if you use uv, you can run with
 
+```bash
+uv run python -m koding_next_python.main
+```
 ## Example
 
 If:
