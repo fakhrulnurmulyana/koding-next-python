@@ -8,38 +8,6 @@ The application calculates the final price based on:
 * Quantity
 * Discount (%)
 
-## Project Structure
-
-```text
-pricing/
-├── main.py
-├── gui.py
-└── pricing.py
-```
-
-### `pricing.py`
-
-Contains the calculation logic.
-
-```python
-def calculate(price, discount, quantity):
-    total = price * quantity
-    discount_amount = total * discount / 100
-    final_price = total - discount_amount
-
-    return final_price
-```
-
-### `gui.py`
-
-Contains the graphical user interface (GUI) using CustomTkinter.
-
-The user enters the price, quantity, and discount, then clicks **Calculate** to see the final price.
-
-### `main.py`
-
-Runs the application.
-
 ## Requirements
 
 * Python 3
@@ -49,6 +17,11 @@ Install CustomTkinter with:
 
 ```bash
 pip install customtkinter
+```
+and if you use uv, you can run 
+
+```bash
+uv run python -m koding_next_python.main
 ```
 
 ## How to Run
