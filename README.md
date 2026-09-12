@@ -2,6 +2,8 @@
 
 A simple price calculator built with Python and CustomTkinter.
 
+<img width="483" height="547" alt="image" src="https://github.com/user-attachments/assets/6ecf832e-bc4d-4081-b561-92efbce91646" />
+
 The application calculates the final price based on:
 
 * Price
